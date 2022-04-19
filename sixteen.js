@@ -114,7 +114,7 @@
 // 3) var x = new Set('javacript');
 // 4) var x = new Set(range(5));
 // 5) var x = new Set();
-// 3번
+// 3번,5번
 
 //22번
 // 배수인지 확인하기
