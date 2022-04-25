@@ -141,7 +141,7 @@
 
 //25번
 //원의 넓이를 구하세요
-//  const fs = require("fs");
+// const fs = require("fs");
 
 // var text = fs.readFileSync('circle.txt','utf8');
 // console.log(text * text * 3.14);
