@@ -58,28 +58,33 @@
 // 민주를 위해 키가 주어지면 순서대로 제대로 섰는지 확인하는 프로그램
 // 키는 공백을 구분
 
-const read = require("readline");
-
-var arr = [];
-
-const rl = read.createInterface({
-    input:process.stdin,
-    output:process.stdout
-
-})
+// const read = require("readline");
 
 
-rl.on('line', (line) =>{
-    arr = line.split(' ').map(el =>(parseInt(el)));
-    arr.sort((a, b) =>{
-        return a - b;
-    })
 
-    if(arr.sort == 1 ){
-        console.log('yes');
-    }
-    else{
-        console.log('no');
-    }
-    rl.close();
-})
+// const rl = read.createInterface({
+//     input:process.stdin,
+//     output:process.stdout
+
+// })
+
+// let sorted = " ";
+
+// var lined;
+
+//     rl.on('line', (line) =>{
+//     line.split(" ").
+//     sort((a, b) =>{
+//         return a - b;
+//     }).join(" ");
+//     lined = line;
+//     sorted = lined;
+//     console.log(sorted);
+//     if(sorted === line ){
+//         console.log('yes');
+//     }
+//     else{
+//         console.log('no');
+//     }
+//     rl.close();
+// })
