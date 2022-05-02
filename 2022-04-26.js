@@ -82,6 +82,7 @@
 
 //37번 문제
 //반장 선거
+
 // const read = require("readline");
 // const rl = read.createInterface({
 //     input:process.stdin,
@@ -103,3 +104,5 @@
 //         console.log(`${winner}(이)가 총 ${result[winner]}표로 반장이 되었습니다.`)
 //         rl.close();
 // })
+
+
