@@ -50,27 +50,3 @@
 //     rl.close();
 // })
 
-//40번
-//놀이동산에 가자
-//제한 무게 
-//탈수 있는 인원수  n
-
-
-let arr = [];
-const read = require("readline");
-const rl = read.createInterface({
-    input:process.stdin,
-    output:process.stdout
-
-})
-
-rl.on('line', function(line){
-    rl.on('line', function(answer) {
-        arr = answer.split(' ').map((el) =>{
-            arr(el);
-        })
-        
-        rl.close();
-    })
-   
-})
