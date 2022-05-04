@@ -63,31 +63,31 @@
 // 윤년 2020년의 a와 b일은 무슨요일 일까요?
 
 
-const date = {
-    0 : 'SUN',
-    1 : 'MON',
-    2 : 'TUE',
-    3 : 'WED',
-    4 : 'THU',
-    5 : 'FRI',
-    6 : 'SAT'    
-};
+// const date = {
+//     0 : 'SUN',
+//     1 : 'MON',
+//     2 : 'TUE',
+//     3 : 'WED',
+//     4 : 'THU',
+//     5 : 'FRI',
+//     6 : 'SAT'    
+// };
 
-const read = require("readline");
-const rl = read.createInterface({
-    input:process.stdin,
-    output:process.stdout
+// const read = require("readline");
+// const rl = read.createInterface({
+//     input:process.stdin,
+//     output:process.stdout
 
-})
+// })
 
-rl.on("line", (a) =>{
-    rl.on("line", (b)=>{
-        const solution = (a,b) => {
-          let today = new Date().getFullYear();
-          let getday = new Date(`${today}-${a}-${b}`).getDay();          
-          console.log(date.valeus(getday));
-        }        
-        solution(a,b);
-        rl.close();
-    })   
-})
+// rl.on("line", (a) =>{
+//     rl.on("line", (b)=>{
+//         const solution = (a,b) => {
+//           let today = new Date().getFullYear();
+//           let getday = new Date(`${today}-${a}-${b}`).getDay();          
+//           console.log(date[getday]);
+//         }        
+//         solution(a,b);
+//         rl.close();
+//     })   
+// })
