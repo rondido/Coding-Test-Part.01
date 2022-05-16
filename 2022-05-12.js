@@ -72,3 +72,29 @@ function quickSort(arr){
 // rl.on("line", (line) =>{
     
 // })
+
+//54번 문제
+//연속되는 수
+// 연속된 숫자이면 yes or no
+
+
+let arr = [];
+
+const read = require("readline");
+const rl = read.createInterface({
+    input:process.stdin,
+    output:process.stdout
+
+})
+
+
+rl.on("line", (line) =>{
+    arr = line.split(' ').map((el) =>(parseInt),el)
+
+    for(index in arr){
+        if(arr[index] === arr[index + 1]){
+            console.log(1111)
+        }
+    }
+    rl.close();
+})
